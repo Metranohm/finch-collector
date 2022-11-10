@@ -28,3 +28,6 @@ class Feeding(models.Model):
 
   def get_absolute_url(self):
     return reverse('finches_detail', kwargs={'finch_id': self.id})
+  
+  class Meta:
+    ordering = ['-date']
