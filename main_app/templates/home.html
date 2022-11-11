@@ -9,12 +9,12 @@
 
 <section class="logo-container">
   <div class="finch-container">
-    <img src="{% static 'images/splash.svg' %}" alt="The Finch Collector Finch" />
+    <img src="{% static 'images/finch-main-logo.png' %}" alt="The Finch Collector Finch" />
   </div>
-  <img 
-    src="{% static 'images/logotype.svg' %}" 
+  {% comment %} <img 
+    src="{% static 'images/finch-header-logo.' %}" 
     alt="Text reads: Finch Collector"
-  />
+  /> {% endcomment %}
 </section>
 {% if not user.is_authenticated %}
   <section>

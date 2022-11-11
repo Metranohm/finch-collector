@@ -62,10 +62,15 @@ ul {
   padding: 0;
 }
 
+.header-logo-container > img {
+  width: 80%;
+}
+
 main {
   width: 100%;
   padding: 0 10px;
 }
+
 
 h2 {
   font-size: var(--font-xl);
@@ -181,6 +186,9 @@ nav li {
     padding: 0 15px;
   }
 
+  .header-logo-container > img {
+    width: 80%;
+  }
   /* visual fix to help align logo */
   .header-logo-container {
     padding-top: 3px;
@@ -234,6 +242,10 @@ nav li {
     top: 20px;
     background-color: transparent;
     border-bottom: none;
+  }
+
+  .header-logo-container img {
+    width: 80%;
   }
 
   nav,

@@ -19,6 +19,10 @@ main > section {
   display: none;
 }
 
+/* .header-logo-container > img {
+  width: 80%;
+} */
+
 .logo-container {
   max-width: 375px;
 }
